@@ -11,8 +11,8 @@ Team Members
 5) Sangeetha S
 
 A vast majority of the people are invariably affected but the production of crops. Farmers, for example, rely on them for their survival. The consumers, on the other
-hand, depend on the crops as it provides them with a multitude of utilities. It therefore, becomes essential to protect and maintain these crops. The project aims at
-improving the farmers’ situation by preventing them from incurring losses due to the damage of crops. Crop failure also deteriorates the quality of the yield thereby
-decreasing the quality of living.
+hand, depend on the crops as it provides them with a multitude of utilities. It therefore, becomes essential to protect and maintain these crops.Crop failure also 
+deteriorates the quality of the yield thereby decreasing the quality of living.The project aims at improving the farmers’ situation by preventing them from incurring
+losses due to the damage of crops. 
 
 ![image](https://user-images.githubusercontent.com/85429643/190555707-0dfbb955-3284-4cfa-bdb2-d77e981d2abb.png)
