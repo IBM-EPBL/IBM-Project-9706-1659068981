@@ -8,7 +8,7 @@ Team Members
 2) Bharthi S
 3) Pavithran K B
 4) Prabuam K V
-5) Sangeetha S
+5) Sangeetha M
 
 A vast majority of the people are invariably affected but the production of crops. Farmers, for example, rely on them for their survival. The consumers, on the other
 hand, depend on the crops as it provides them with a multitude of utilities. It therefore, becomes essential to protect and maintain these crops.Crop failure also 
