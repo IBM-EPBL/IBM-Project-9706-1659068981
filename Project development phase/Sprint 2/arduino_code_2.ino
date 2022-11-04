@@ -56,7 +56,7 @@ void loop() {
       tft.setCursor(20, 120);
       tft.setTextColor(ILI9341_RED);
       tft.setTextSize(3);
-      tft.println("Motion is detected animal intrusion a location 2");
+      tft.println("Motion is detected animal intrusion at location 2");
     }
   } else {
     if (pirState == HIGH) {
