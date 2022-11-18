@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 63.35, "left": -127.33, "attrs": {} },
+    { "type": "wokwi-ili9341", "id": "lcd1", "top": 9.22, "left": 61.52, "attrs": {} },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir1",
+      "top": -11.92,
+      "left": 276.25,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -127.25,
+      "left": -119.75,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir2", "top": -8.54, "left": 384.32, "attrs": {} }
+  ],
+  "connections": [
+    [ "lcd1:GND", "esp:GND.1", "black", [ "v39.14", "h-100.15", "v-114.89" ] ],
+    [ "lcd1:CS", "esp:D15", "green", [ "v28.77", "h-102.34", "v-115.63" ] ],
+    [ "lcd1:RST", "esp:D4", "green", [ "v22.09", "h-104.53", "v-114.89" ] ],
+    [ "lcd1:D/C", "esp:D2", "green", [ "v16.16", "h-104.49", "v-114.15" ] ],
+    [ "lcd1:SCK", "esp:D18", "green", [ "v10.23", "h-117.02", "v-158.63" ] ],
+    [ "lcd1:MISO", "esp:D19", "green", [ "v46.55", "h-176.99", "v-212" ] ],
+    [ "lcd1:MOSI", "esp:D23", "green", [ "v33.95", "h-159.3", "v-240.16" ] ],
+    [ "esp:VIN", "lcd1:VCC", "red", [ "h-10.84", "v133.05", "h247.33" ] ],
+    [ "pir1:OUT", "esp:D14", "green", [ "v216.14", "h-56.71", "v99.36", "h-411.03", "v-213.36" ] ],
+    [ "pir1:VCC", "esp:3V3", "red", [ "v282.03", "h-433.94" ] ],
+    [ "pir1:GND", "esp:GND.1", "black", [ "v296.67", "h-347.77", "v-167.34" ] ],
+    [ "pir2:OUT", "esp:D12", "green", [ "v340.35", "h-585.22", "v-230.09" ] ],
+    [ "esp:GND.1", "pir2:GND", "black", [ "h5.97", "v167.53", "h462.27", "v-303.3" ] ],
+    [ "pir2:VCC", "esp:3V3", "red", [ "v322.57", "h-443.7" ] ],
+    [ "bz1:2", "esp:D13", "green", [ "v16.65", "h-133", "v232.64" ] ],
+    [ "bz1:1", "esp:GND.2", "green", [ "v63.18", "h-85.21", "v190.22" ] ]
+  ]
+}
