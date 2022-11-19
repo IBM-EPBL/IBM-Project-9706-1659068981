@@ -17,5 +17,5 @@ losses due to the damage of crops.
 
 
 
-![image](https://user-images.githubusercontent.com/85429643/190555707-0dfbb955-3284-4cfa-bdb2-d77e981d2abb.png)
+
 
